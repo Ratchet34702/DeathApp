@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".Introduction">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        tools:context=".Introduction">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="218dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="28dp"
+            android:fontFamily="@font/deathnote"
+            android:gravity="center"
+            android:text="HOW TO USE IT"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="241dp"
+            android:layout_height="69dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/gnyrwn971"
+            android:text="Людина, чиє ім'я буде записано в цьому зошиті, — "
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView1"
+            tools:ignore="HardcodedText,MissingConstraints,SpUsage,TextSizeCheck" />
+
+        <ImageView
+            android:id="@+id/homebutton"
+            android:layout_width="97dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="52dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11"
+            app:srcCompat="@drawable/homebutton"
+            tools:ignore="ContentDescription,DuplicateIds" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="240dp"
+            android:layout_height="113dp"
+            android:layout_marginStart="84dp"
+            android:layout_marginTop="92dp"
+            android:fontFamily="@font/gnyrwn971"
+            android:text="Людина, чиє ім'я буде записано у цьому зошиті, має право знати кількість пройдених кроків – "
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView2"
+            tools:ignore="DuplicateIds,HardcodedText,MissingConstraints,SpUsage,TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="137dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="84dp"
+            android:layout_marginTop="124dp"
+            android:fontFamily="@font/gnyrwn971"
+            android:text="Є опція перейти в користувача."
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView10"
+            tools:ignore="DuplicateIds,HardcodedText,MissingConstraints,SpUsage,TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="250dp"
+            android:layout_height="102dp"
+            android:fontFamily="@font/gnyrwn971"
+            android:text="Якщо бій розпочато, людина протягом деякого часу дізнається про свої  "
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.521"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.588"
+            tools:ignore="DuplicateIds,HardcodedText,MissingConstraints,SpUsage,TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="113dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="141dp"
+            android:layout_marginEnd="76dp"
+            android:background="@drawable/border"
+            android:fontFamily="@font/gnyrwn971"
+            android:padding="5dp"
+            android:text="ПРИЙМЕ БІЙ."
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="58dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="285dp"
+            android:background="@drawable/border"
+            android:fontFamily="@font/gnyrwn971"
+            android:padding="5dp"
+            android:text="КРОК."
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text12"
+            android:layout_width="126dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="148dp"
+            android:layout_marginTop="397dp"
+            android:background="@drawable/border"
+            android:fontFamily="@font/gnyrwn971"
+            android:padding="5dp"
+            android:text="ДОСЯГНЕННЯ."
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text14"
+            android:layout_width="82dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="221dp"
+            android:layout_marginTop="466dp"
+            android:background="@drawable/border"
+            android:fontFamily="@font/gnyrwn971"
+            android:padding="5dp"
+            android:text="ПРОФІЛЬ"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

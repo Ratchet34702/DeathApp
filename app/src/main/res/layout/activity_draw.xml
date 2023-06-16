@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_draw"
+    tools:context=".Draw">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="52dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/deathnote"
+        android:text="DEATH"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="33dp"
+        android:layout_height="35dp"
+        app:srcCompat="@drawable/rules"
+        tools:layout_editor_absoluteX="332dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="132dp"
+        android:layout_height="80dp"
+        android:fontFamily="@font/gnyrwn971"
+        android:text="Нічия"
+        android:textColor="@color/white"
+        android:textSize="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="397dp" />
+
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="580dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/foot" />
+
+    <ImageView
+        android:id="@+id/img6"
+        android:layout_width="60dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="580dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/achieve" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="580dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/apple" />
+
+    <ImageView
+        android:id="@+id/img8"
+        android:layout_width="56dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="580dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/homebutton" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gnyrwn971"
+        android:text="Кроки - 5000"
+        android:textColor="@color/white"
+        android:textSize="48dp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="502dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
